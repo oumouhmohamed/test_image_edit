@@ -1,0 +1,7 @@
+body{
+margin:0;min-height:100vh;display:grid;place-items:center;background:#f1f1f1;
+font-family:Arial,sans-serif;padding:24px}.wrap{width:min(92vw,520px);text-align:center}
+.invite{width:100%;display:block;border-radius:22px;box-shadow:0 18px 45px rgba(0,0,0,.16)}
+.sound-button{margin-top:18px;border:0;border-radius:999px;padding:14px 22px;
+font-size:18px;font-weight:700;cursor:pointer;background:#222;color:#fff}
+.note{font-size:13px;color:#666;margin-top:10px}

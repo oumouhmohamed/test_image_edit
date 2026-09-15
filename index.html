@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Noah's Voice Invitation</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main class="wrap">
+  <img class="invite" src="invitation.svg" alt="Birthday invitation">
+  <button class="sound-button" onclick="playVoice()">🔊 Tap to hear Noah's message</button>
+  <audio id="voice" preload="auto">
+    <source src="c:\Users\hp\Downloads\voice_invitation_example\voice.mp3" type="audio/wav">
+  </audio>
+  <div class="note">Replace voice.wav with the child's real recording.</div>
+</main>
+<script>
+function playVoice(){
+  const audio=document.getElementById('voice');
+  audio.currentTime=0;
+  audio.play();
+}
+</script>
+</body>
+</html>
